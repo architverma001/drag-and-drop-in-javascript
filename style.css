@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(214, 127, 254);
+}
+
+.imgbox{
+    background-image: url(imgutlis/girlpic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ccc;
+    border: 0.5px solid black;
+    width: 145px;
+    height:  145px;
+    margin: 2.5px auto;
+    
+    
+}
+.whitebox{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+  border: 1px solid rgb(255, 0, 0);    
+  background-color:white
+}
+.hold{
+    border:2px solid red;
+}
+.hide{
+    display: none;
+}
+
+.dashed{
+    background-color: rgb(255, 183, 183);
+    border: 2px solid red;
+    border-style: dashed;
+
+}
